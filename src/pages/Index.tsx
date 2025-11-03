@@ -25,6 +25,7 @@ interface Engine {
   cons: string[];
   powerCurve: { rpm: number; power: number }[];
   torqueCurve: { rpm: number; torque: number }[];
+  image: string;
 }
 
 const engines: Engine[] = [
@@ -59,7 +60,8 @@ const engines: Engine[] = [
       { rpm: 5000, torque: 480 },
       { rpm: 6000, torque: 440 },
       { rpm: 7000, torque: 400 }
-    ]
+    ],
+    image: 'https://cdn.poehali.dev/projects/97617441-4cc0-43c6-a3bb-a7bc8c43df3e/files/3b5fb2b5-359d-425b-8b0e-727fcd502bf9.jpg'
   },
   {
     id: '2',
@@ -92,7 +94,8 @@ const engines: Engine[] = [
       { rpm: 5000, torque: 440 },
       { rpm: 6000, torque: 420 },
       { rpm: 7000, torque: 380 }
-    ]
+    ],
+    image: 'https://cdn.poehali.dev/projects/97617441-4cc0-43c6-a3bb-a7bc8c43df3e/files/55b37b86-edf2-48fa-999c-bc7bcce772bb.jpg'
   },
   {
     id: '3',
@@ -125,7 +128,8 @@ const engines: Engine[] = [
       { rpm: 5000, torque: 340 },
       { rpm: 6000, torque: 310 },
       { rpm: 7000, torque: 280 }
-    ]
+    ],
+    image: 'https://cdn.poehali.dev/projects/97617441-4cc0-43c6-a3bb-a7bc8c43df3e/files/efa53855-f937-4d2b-8029-e9466c72dc1f.jpg'
   },
   {
     id: '4',
@@ -158,7 +162,8 @@ const engines: Engine[] = [
       { rpm: 5000, torque: 420 },
       { rpm: 6000, torque: 400 },
       { rpm: 7000, torque: 370 }
-    ]
+    ],
+    image: 'https://cdn.poehali.dev/projects/97617441-4cc0-43c6-a3bb-a7bc8c43df3e/files/f823c906-ad68-4853-9c1d-d178860ad395.jpg'
   },
   {
     id: '5',
@@ -187,7 +192,8 @@ const engines: Engine[] = [
       { rpm: 3000, torque: 500 },
       { rpm: 4000, torque: 480 },
       { rpm: 5000, torque: 420 }
-    ]
+    ],
+    image: 'https://cdn.poehali.dev/projects/97617441-4cc0-43c6-a3bb-a7bc8c43df3e/files/66c5af6a-a60e-4842-99eb-07829f053fb1.jpg'
   },
   {
     id: '6',
@@ -218,7 +224,8 @@ const engines: Engine[] = [
       { rpm: 4000, torque: 350 },
       { rpm: 5000, torque: 330 },
       { rpm: 6000, torque: 300 }
-    ]
+    ],
+    image: 'https://cdn.poehali.dev/projects/97617441-4cc0-43c6-a3bb-a7bc8c43df3e/files/e02532f3-002f-485e-b7e2-88be0ab8d40e.jpg'
   },
   {
     id: '7',
@@ -251,7 +258,8 @@ const engines: Engine[] = [
       { rpm: 5000, torque: 650 },
       { rpm: 6000, torque: 600 },
       { rpm: 7000, torque: 520 }
-    ]
+    ],
+    image: 'https://cdn.poehali.dev/projects/97617441-4cc0-43c6-a3bb-a7bc8c43df3e/files/66c19aeb-9f4d-46af-bed4-0eb68c5963a0.jpg'
   },
   {
     id: '8',
@@ -284,7 +292,8 @@ const engines: Engine[] = [
       { rpm: 5000, torque: 390 },
       { rpm: 6000, torque: 370 },
       { rpm: 7000, torque: 340 }
-    ]
+    ],
+    image: 'https://cdn.poehali.dev/projects/97617441-4cc0-43c6-a3bb-a7bc8c43df3e/files/4910e38e-8bc2-4400-b4f7-99b59c99af46.jpg'
   },
   {
     id: '9',
@@ -317,7 +326,8 @@ const engines: Engine[] = [
       { rpm: 5000, torque: 540 },
       { rpm: 6000, torque: 510 },
       { rpm: 7000, torque: 470 }
-    ]
+    ],
+    image: 'https://cdn.poehali.dev/projects/97617441-4cc0-43c6-a3bb-a7bc8c43df3e/files/bd7aaa93-438a-47ba-b77e-4351013d988c.jpg'
   },
   {
     id: '10',
@@ -350,7 +360,8 @@ const engines: Engine[] = [
       { rpm: 5000, torque: 570 },
       { rpm: 6000, torque: 540 },
       { rpm: 7000, torque: 500 }
-    ]
+    ],
+    image: 'https://cdn.poehali.dev/projects/97617441-4cc0-43c6-a3bb-a7bc8c43df3e/files/48203aa4-7350-4c2e-8c29-6ab6876b37cf.jpg'
   },
   {
     id: '11',
@@ -381,7 +392,8 @@ const engines: Engine[] = [
       { rpm: 4000, torque: 250 },
       { rpm: 5000, torque: 240 },
       { rpm: 6000, torque: 210 }
-    ]
+    ],
+    image: 'https://cdn.poehali.dev/projects/97617441-4cc0-43c6-a3bb-a7bc8c43df3e/files/9fc4517f-c213-46c6-8e58-4ab0b9980b21.jpg'
   },
   {
     id: '12',
@@ -414,7 +426,8 @@ const engines: Engine[] = [
       { rpm: 5000, torque: 390 },
       { rpm: 6000, torque: 370 },
       { rpm: 7000, torque: 340 }
-    ]
+    ],
+    image: 'https://cdn.poehali.dev/projects/97617441-4cc0-43c6-a3bb-a7bc8c43df3e/files/0d7ca921-e17a-4c00-b05f-f2cb0662f93d.jpg'
   },
   {
     id: '13',
@@ -447,7 +460,8 @@ const engines: Engine[] = [
       { rpm: 5000, torque: 218 },
       { rpm: 6000, torque: 215 },
       { rpm: 7000, torque: 210 }
-    ]
+    ],
+    image: 'https://cdn.poehali.dev/projects/97617441-4cc0-43c6-a3bb-a7bc8c43df3e/files/79cfe01d-1fcd-4a11-970d-0f8516b386de.jpg'
   },
   {
     id: '14',
@@ -480,7 +494,8 @@ const engines: Engine[] = [
       { rpm: 5000, torque: 550 },
       { rpm: 6000, torque: 520 },
       { rpm: 7000, torque: 480 }
-    ]
+    ],
+    image: 'https://cdn.poehali.dev/projects/97617441-4cc0-43c6-a3bb-a7bc8c43df3e/files/ab59d58f-7b46-4fd4-b65c-fd25271da86a.jpg'
   },
   {
     id: '15',
@@ -513,7 +528,8 @@ const engines: Engine[] = [
       { rpm: 5000, torque: 360 },
       { rpm: 6000, torque: 340 },
       { rpm: 7000, torque: 310 }
-    ]
+    ],
+    image: 'https://cdn.poehali.dev/projects/97617441-4cc0-43c6-a3bb-a7bc8c43df3e/files/f4a1d8f3-fdc5-4641-bae6-13f7a89f3afd.jpg'
   },
   {
     id: '16',
@@ -546,7 +562,8 @@ const engines: Engine[] = [
       { rpm: 5000, torque: 780 },
       { rpm: 6000, torque: 740 },
       { rpm: 7000, torque: 680 }
-    ]
+    ],
+    image: 'https://cdn.poehali.dev/projects/97617441-4cc0-43c6-a3bb-a7bc8c43df3e/files/67b09637-bcf7-4e81-ac44-bf935c8feace.jpg'
   }
 ];
 
@@ -657,6 +674,23 @@ const Index = () => {
             >
               <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full -mr-16 -mt-16 group-hover:scale-150 transition-transform duration-500" />
               
+              <div className="relative h-48 overflow-hidden rounded-t-lg bg-background/30">
+                <img 
+                  src={engine.image} 
+                  alt={engine.name}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute top-2 right-2">
+                  <Checkbox
+                    checked={compareEngines.includes(engine.id)}
+                    onCheckedChange={() => toggleCompare(engine.id)}
+                    onClick={(e) => e.stopPropagation()}
+                    disabled={compareEngines.length >= 3 && !compareEngines.includes(engine.id)}
+                    className="bg-background/80 backdrop-blur"
+                  />
+                </div>
+              </div>
+              
               <div className="p-6 relative">
                 <div className="flex items-start justify-between mb-4">
                   <div className="flex-1">
@@ -665,14 +699,6 @@ const Index = () => {
                       <Badge variant="outline" className="text-xs">{engine.year}</Badge>
                     </div>
                     <p className="text-sm text-muted-foreground">{engine.manufacturer}</p>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Checkbox
-                      checked={compareEngines.includes(engine.id)}
-                      onCheckedChange={() => toggleCompare(engine.id)}
-                      onClick={(e) => e.stopPropagation()}
-                      disabled={compareEngines.length >= 3 && !compareEngines.includes(engine.id)}
-                    />
                   </div>
                 </div>
 
@@ -792,6 +818,14 @@ const Index = () => {
                 </DialogTitle>
                 <p className="text-muted-foreground">{selectedEngine.manufacturer}</p>
               </DialogHeader>
+
+              <div className="relative h-64 overflow-hidden rounded-lg bg-background/30 mt-4">
+                <img 
+                  src={selectedEngine.image} 
+                  alt={selectedEngine.name}
+                  className="w-full h-full object-cover"
+                />
+              </div>
 
               <Tabs defaultValue="specs" className="mt-4">
                 <TabsList className="grid w-full grid-cols-4">
